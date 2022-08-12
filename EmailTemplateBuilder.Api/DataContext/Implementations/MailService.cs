@@ -43,7 +43,7 @@ namespace EmailTemplateBuilder.Api.DataContext.Implementations
                 // formate Mailtemaplate with place holder 
 
 
-                message.Subject = "Approval Email";
+                message.Subject = "Generated email template by email builder";
 
                 message.Body = _mailbody;
              
